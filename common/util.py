@@ -4,7 +4,6 @@ sys.path.append('..')
 import os
 from common.np import *
 
-
 def preprocess(text):
     text = text.lower()
     text = text.replace('.', ' .')
