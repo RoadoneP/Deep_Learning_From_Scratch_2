@@ -21,7 +21,7 @@ def _update_vocab(txt):
 
 def load_data(file_name='addition.txt', seed=1984):
     file_path = os.path.dirname(os.path.abspath(__file__)) + '/' + file_name
-
+    
     if not os.path.exists(file_path):
         print('No file: %s' % file_name)
         return None
